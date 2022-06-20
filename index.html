@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>ОНЛАЙН-МАРАФОН ПО EXCEL</title>
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+	<div class="main">
+		<header class="header">
+			<div class="container">
+				<div class="row mb__40">
+					<div class="col-4 col-md-3 col-lg-2">
+						<img src="images/logo.png" alt="images" class="logo">
+					</div>
+					<div
+						class="col-lg-10 col-xl-8 d-flex justify-content-between align-items-center nav mobile-header-nav header__nav">
+						<a href="#block1" class="link s16">
+							Преимущества
+						</a>
+						<a href="#block2" class="link s16">
+							О курсе
+						</a>
+						<a href="#block4" class="link s16">
+							Другие курсы
+						</a>
+						<a href="#block5" class="link s16">
+							Почему Python
+						</a>
+						<a href="#block6" class="link s16">
+							О нас
+						</a>
+						<a href="#block7" class="link s16">
+							Отзывы
+						</a>
+					</div>
+					<div class="col-8 col-md-9 d-block d-lg-none">
+						<nav class="mobile-menu">
+							<input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+							<label for="checkbox" onclick="burger()" class="mobile-menu__btn">
+								<div class="mobile-menu__icon"></div>
+							</label>
+						</nav>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-7 mt-100">
+						<h1 class="s48 fw-700 mb__25 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+							Обучение Python с нуля<br>
+							с Hard Skills Academy
+						</h1>
+						<p class="s18 fw-600 black mb__15 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+							Учим на практике, а не на словах
+						</p>
+						<p class="s16 mb__45 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+							Пройдите курс из 10 занятий, и уже через 1,5 месяца<br>
+							вы сможете сами настроить бота, майнинг или<br>
+							создать базу данных из CSV
+						</p>
+						<a href="#" class="buy-button wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s"
+							data-toggle="modal" data-target="#modal3">
+							Записаться на курс
+						</a>
+					</div>
+					<div class="col-lg-5 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+						<div class="header-form">
+							<div class="form-container">
+								<div class="notes"></div>
+								<div class="fields">
+									<form class="ajax-contact-form" action="">
+										<p class="s30 fw-700 white text-center mb__30">
+											Начать обучение <br>прямо сейчас
+										</p>
+										<div>
+											<input type="text" name="name" required value="" placeholder="Ваше имя"
+												class="my-in">
+											<input type="tel" name="phone" required value=""
+												placeholder="Ваш номер телефона" class="my-in">
+											<textarea type="hidden" name="message" class="d-none">-</textarea>
+										</div>
+										<div>
+											<input type="email" required name="email" value="" placeholder="Ваш email"
+												class="my-in">
+											<input type="submit" name="submit" class="form-btn btn fw-600 white"
+												value="Начать обучение">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<section>
+		<div class="mobile-menu__container">
+			<ul class="mobile-menu__list">
+				<li class="mobile-menu__item"><a href="#block1" class="mobile-menu__link s16 link">Преимущества</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block2" class="mobile-menu__link s16 link">О курсе</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block4" class="mobile-menu__link s16 link">Другие курсы</a></li>
+				<li class="mobile-menu__item"><a href="#block5" class="mobile-menu__link s16 link">Почему Python</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block6" class="mobile-menu__link s16 link">О нас</a>
+				<li class="mobile-menu__item"><a href="#block7" class="mobile-menu__link s16 link">Отзывы</a>
+				</li>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="block1" id="block1">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="s48 text-center fw-700 black mb__30 wow fadeIn" data-wow-duration="0.9s"
+						data-wow-delay="0.5s">
+						Преимущества обучению Python в<br>
+						<span class="blue">Hard Skills Academy</span>
+					</h2>
+				</div>
+				<div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+					<div>
+						<p class="num">
+							01
+						</p>
+					</div>
+					<div class="block1-back">
+						<p class="s24 black fw-700 mb__20">
+							Концентрированная подача
+						</p>
+						<p class="s18">
+							Короткий, но ёмкий курс охватил всё самое главное для новичка в Python. Получите полезные
+							навыки уже на втором занятии.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+					<div>
+						<p class="num">
+							02
+						</p>
+					</div>
+					<div class="block1-back">
+						<p class="s24 black fw-700 mb__20">
+							Доступная подача
+						</p>
+						<p class="s18">
+							Простое изложение азов с примерами на практике. Научитесь работать с Python без лишних
+							вводных у профессиональных разработчиков
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+					<div>
+						<p class="num">
+							03
+						</p>
+					</div>
+					<div class="block1-back">
+						<p class="s24 black fw-700 mb__20">
+							Доказанная эффективность
+						</p>
+						<p class="s18">
+							Разбор примеров со студентами на каждом занятии. Обучение, в которое вовлечён каждый.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+					<div>
+						<p class="num">
+							04
+						</p>
+					</div>
+					<div class="block1-back">
+						<p class="s24 black fw-700 mb__20">
+							Реальные знания
+						</p>
+						<p class="s18">
+							Программу ведёт опытный разработчик с пониманием того, что нужно на начальной стадии.
+							Никогда не работали с Python? Теперь сможете.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block2" id="block2">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="s48 text-center fw-700 black mb__30 wow fadeIn" data-wow-duration="0.9s"
+						data-wow-delay="0.5s">
+						О курсе
+					</h2>
+				</div>
+				<div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+					<div class="block2-back">
+						<p class="s24 black fw-700 mb__20">
+							Курс от Hard Skills Academy
+						</p>
+						<p class="s18">
+							– это реальный опыт живых людей, а не книжные теории, которые не приносят никакой пользы. На
+							нём вы научитесь полезным навыкам, с которыми сможете закодить простые программы на Python
+							всего через 1,5 месяца! Переход к практике уже на втором занятии – а через десять удивитесь,
+							что не научились писать на Python раньше!.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+					<div class="block2-back">
+						<p class="s24 black fw-700 mb__20">
+							Записавшись на курс, вы получите:
+						</p>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line.png" alt="images">
+							</div>
+							<p class="s18 fw-600 black ml__10">
+								2 полезных занятия каждую неделю;
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line.png" alt="images">
+							</div>
+							<p class="s18 fw-600 black ml__10">
+								практическое задание с реальными таблицами на каждом уроке;
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line.png" alt="images">
+							</div>
+							<p class="s18 fw-600 black ml__10">
+								целенаправленное обучение на 10 занятиях в течение 1,5 месяцев.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block3">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 p-0">
+					<div class="purple-back">
+						<p class="s46 fw-700">
+							Первое занятие – 7 декабря
+						</p>
+						<p class="s22">
+							Запишитесь сегодня со <span class="fw-700">скидкой 75%!</span>
+						</p>
+						<p class="s22 fw-700">
+							Научиться писать на Python за
+						</p>
+						<div class="d-flex">
+							<p class="s22 mt__30 price">
+								11 500 руб.
+							</p>
+							<p class="s46 fw-700 ml__30">
+								2 875 руб.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 p-0">
+					<div class="pink-back">
+						<p class="s36 fw-600 m-a" data-toggle="modal" data-target="#modal3">
+							Записаться<br>
+							на курс
+						</p>
+						<p class="s21">
+							Осталось: 20 из 30 мест!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block4" id="block4">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="s48 text-center fw-700 black mb__30 wow fadeIn" data-wow-duration="0.9s"
+						data-wow-delay="0.5s">
+						<span class="blue">Hard Skills Academy</span> и другие курсы
+					</h2>
+				</div>
+				<div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+					<div class="block4-back">
+						<p class="s24 black fw-700 mb__20">
+							Другие курсы
+						</p>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line3.png" alt="images">
+							</div>
+							<p class="s18 ml__10">
+								Много теоретических знаний, которые не нужны на практике.
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line3.png" alt="images">
+							</div>
+							<p class="s18 ml__10">
+								Долгое и непонятное обучение с большой вводной частью.
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line3.png" alt="images">
+							</div>
+							<p class="s18 ml__10">
+								Минимум практики и знания из учебников.
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line3.png" alt="images">
+							</div>
+							<p class="s18 ml__10">
+								Почти нулевые навыки по окончании курса
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line3.png" alt="images">
+							</div>
+							<p class="s18 ml__10">
+								Завышенная стоимость обучения
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+					<div class="block4-back">
+						<p class="s24 black fw-700 mb__20 purple">
+							Hard Skills Academy:
+						</p>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line2.png" alt="images">
+							</div>
+							<p class="s18 ml__10 black fw-600">
+								Никакой воды. Обучение тому, что действительно нужно.
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line2.png" alt="images">
+							</div>
+							<p class="s18 ml__10 black fw-600">
+								Быстрый старт для новичков и доступное объяснение понятными словами.
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line2.png" alt="images">
+							</div>
+							<p class="s18 ml__10 black fw-600">
+								Практические задания уже на втором занятии с реальным опытом от разработчиков.
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line2.png" alt="images">
+							</div>
+							<p class="s18 ml__10 black fw-600">
+								Беглое владение с данными как в Excel, так и в Python.
+							</p>
+						</div>
+						<div class="d-flex mb__20">
+							<div class="shrink">
+								<img src="images/line2.png" alt="images">
+							</div>
+							<p class="s18 ml__10 black fw-600">
+								Доступная цена для каждого.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block5" id="block5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="s48 text-center fw-700 black mb__30 wow fadeIn" data-wow-duration="0.9s"
+						data-wow-delay="0.5s">
+						Почему вам стоит изучить Python?
+					</h2>
+					<div class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+						<div class="block5-num fw-700">
+							01
+						</div>
+						<div class="block5-back">
+							<p class="s18 fw-600 black">
+								Python – это простой, но популярный язык разработки, на котором пишется большинство игр,
+								сайтов и приложений. Он популярнее даже Java – при этом, его намного проще изучить, даже
+								не
+								имея базовых навыков программирования.
+							</p>
+						</div>
+					</div>
+					<div class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+						<div class="block5-num fw-700">
+							02
+						</div>
+						<div class="block5-back">
+							<p class="s18 fw-600 black">
+								Научившись писать на Python, вы сможете найти высокооплачиваемую работу: он нужен для
+								работы
+								с чат-ботами, базами данных, в разработке игр, приложений и в системном
+								администрировании
+							</p>
+						</div>
+					</div>
+					<div class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+						<div class="block5-num fw-700">
+							03
+						</div>
+						<div class="block5-back">
+							<p class="s18 fw-600 black">
+								Средняя заработная плата рядового программиста на Python достигает 120 000 рублей. И это
+								только средний показатель – никто не сможет помешать вам добиться большего.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block6" id="block6">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="s48 text-center fw-700 black mb__30 wow fadeIn" data-wow-duration="0.9s"
+						data-wow-delay="0.5s">
+						О нас
+					</h2>
+					<div class="block5-back wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+						<p class="s18 fw-600 mb__30">
+							<span class="purple">Hard Skills Academy</span> – это не именитый бренд и не раскрученные
+							фамилии, и у него нет
+							ютуб-канала с миллионом подписчиков. Что нисколько не мешает его преподавателям давать
+							студентам полезные знания, которые они смогут применить на практике. Обладая опытом
+							разработки на Python 10+ лет, основатели <span class="purple">Hard Skills Academy</span>
+							понимают, что нужно новичкам и
+							продвинутым любителям, которые желают углубить свои знания и научиться работать с Python на
+							практике.
+						</p>
+						<p class="s18 fw-600 mb__30">
+							Команда <span class="purple">Hard Skills Academy</span> ведёт курсы, понятные даже новичкам
+							и доступные даже студентам.
+							Вы не переплачиваете за имя – но получаете гораздо больше.
+						</p>
+						<p class="s18 fw-600">
+							Курс обучения языку Python от <span class="purple">Hard Skills Academy</span> – это всё то,
+							что пригодилось самим
+							преподавателям. Никакой ненужной теории или терминологии: только практика и нужные знания,
+							которые вы сможете усвоить до полного автоматизма. Запишите и убедитесь сами!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block7" id="block7">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="s48 text-center fw-700 black mb__30">
+						Что о нас пишут наши ученики?
+					</h2>
+					<div class="block7-back wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+						<!-- <div class="shrink">
+							<div class="ellipse"></div>
+						</div> -->
+						<div class="shrink d-block">
+							<img src="images/o1.png" alt="images">
+						</div>
+						<div class="ml__30">
+							<p class="s24 fw-600 black mb__20">
+								Анна Иванова, 24 года
+							</p>
+							<p class="s18 fw-600">
+								Хочу поблагодарить Hard Skills Academy за их старания и реальную ориентированность на
+								практику. До прохождения курсов в питоне я была полный ноль, мне всё казалось сложным и
+								непонятным. Я не верила, что когда-нибудь смогу научиться понимать в коде, но Hard
+								Skills Academy научили меня не бояться неизвестного, которое на деле оказывается в
+								тысячу раз проще! На каждом уроке были упражнения с таблицами, работали с xlsx, csv,
+								выгрузками, и преподаватель очень подробно раскрывал суть каждого действия, объясняя всё
+								до мельчайших подробностей. Всего было 10 занятий, мне даже жаль, что их так мало. Если
+								бы всему учили так же хорошо!
+							</p>
+						</div>
+					</div>
+					<div class="block7-back wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+						<!-- <div class="shrink">
+							<div class="ellipse"></div>
+						</div> -->
+						<div class="shrink d-block">
+							<img src="images/o2.png" alt="images">
+						</div>
+						<div class="ml__30">
+							<p class="s24 fw-600 black mb__20">
+								Влад Сергиенко, 22 года
+							</p>
+							<p class="s18 fw-600">
+								Ваши курсы – это бомба! Всё, что я знал о Python прежде (а я уже проходил целых два
+								тренига), преподаватель сжато рассказал за 15 минут первого занятия! До этого я зря
+								тратил деньги на курсы, которые мне ничего не дали, а тут уже со второго урока началась
+								реальная движуха! Упражнения, задачи, работа с БД – мне понравилось! А главное, я всё
+								понял. Это реально просто!
+							</p>
+						</div>
+					</div>
+					<div class="block7-back wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+						<!-- <div class="shrink">
+							<div class="ellipse"></div>
+						</div> -->
+						<div class="shrink d-block">
+							<img src="images/o3.png" alt="images">
+						</div>
+						<div class="ml__30">
+							<p class="s24 fw-600 black mb__20">
+								Азат Азаматов, 33 года
+							</p>
+							<p class="s18 fw-600">
+								Времена сейчас непростые, и стоит повышать свои скиллы. Всё переходит в диджитал: надо
+								как-то выживать! Решил, что и мне не помешает изучить основы Python – только во в
+								самоучителях всё льют из пустого в порожнее, а толку никакого. По совету друзей пошёл к
+								Hard Skills Academy – сказали, что это лучшие преподы по теме. Скажу честно, сравнивать
+								не с чем, но тут мне всё понравилось: занятия серьёзные, теории достаточно, но практики
+								ещё больше, причём преподаватель уделяет внимание каждому, следит, помогает,
+								подсказывает. Если что-то непонятно – объясняет, пока не станет понятно ) Терпеливые
+								ребята! Спасибо!
+							</p>
+						</div>
+					</div>
+					<div class="block7-back wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+						<!-- <div class="shrink">
+							<div class="ellipse"></div>
+						</div> -->
+						<div class="shrink d-block">
+							<img src="images/o4.png" alt="images">
+						</div>
+						<div class="ml__30">
+							<p class="s24 fw-600 black mb__20">
+								Тимур Титоренко, 28 лет
+							</p>
+							<p class="s18 fw-600">
+								Работаю смм-шником уже 10 лет, но понял, что мне этого мало, и я хочу чего-то большего.
+								Раз уж работаю в Интернете, решил искать в смежных сферах. Задумался о Python. Читал,
+								думал ещё больше. Область казалась привлекательной, но малодоступной. И, признаться, на
+								целый год я отложил свою идею. Пока в апреле не понял, что мои навыки однажды могут
+								оказаться никому не нужны. <br>
+								Тогда-то я и решил попробовать изучать Python – но не самостоятельно (в одиночку даже
+								иностранный язык не выучить, не то что программирования), а с преподавателем. Выбор пал
+								на Hard Skills Academy – нашёл вк много хороших отзывов... и теперь пишу такой же.
+								Первое, что понравилось, это подача материала. Вам не вбухивают кучу сложных терминов, а
+								наоборот, пытаются всё сложное объяснить просто, на примерах. Второе – это множество
+								задач, выполняя которые, можно наработать полезный навык, причём в короткие сроки. И
+								третье – просто понравились сами ребята, добрые, открытые, весёлые. Ставлю лайк и делаю
+								репост!
+
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block8">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<div class="block8-back wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+						<h2 class="s48 text-center fw-700 white">
+							Записаться на эффективный курс Python
+						</h2>
+						<div class="d-flex justify-content-center align-items-baseline mb__20">
+							<p class="s48 fw-700">
+								за
+							</p>
+							<p class="24 ml__30 price price2">
+								11 500 руб.
+							</p>
+							<p class="s48 fw-700 ml__30">
+								2 875 руб.
+							</p>
+						</div>
+						<a href="#" class="buy-button" data-toggle="modal" data-target="#modal3">
+							Записаться на курс
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<img src="images/logo.png" alt="images" class="logo">
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script>
+		function loadScript(src) {
+			let script = document.createElement('script');
+			script.src = src;
+			script.async = false;
+			document.body.append(script);
+		}
+		function func() {
+			//loadScript("js/jquery-3.4.1.min.js");
+			loadScript("js/bootstrap.min.js");
+			//loadScript("js/slick.min.js");
+			loadScript("js/main.js");
+			loadScript("js/contactform.js");
+		}
+		setTimeout(func, 500);
+	</script>
+
+
+	<script type="text/javascript">
+
+	</script>
+
+	<div class="modal fade my-forms-modal" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		style="z-index: 55555;">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">
+							&#10006;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<div class="s27 fw-700 mb__40">Спасибо</div>
+					<p class="mb__35 fw-600 text-center">Ваш сообщение успешно отправлено. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade my-forms-modal" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		style="z-index: 55555;">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">
+							&#215;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<div class="embed-responsive embed-responsive-16by9">
+						Текст
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
